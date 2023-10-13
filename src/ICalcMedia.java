@@ -11,7 +11,7 @@ class MediaAritmetica implements ICalcMedia {
     }
 
     public String Situacao(double media) {
-        if (media > 5) {
+        if (media > 7) {
             return "Aprovado!";
         } else
             return "Reprovado...";
